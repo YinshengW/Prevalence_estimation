@@ -1,0 +1,67 @@
+Variable,Description,Unique Values,Category,Missing Values,Roles
+FIPSST,State FIPS Code,51,Household,0,Predictor
+STRATUM,Sampling Stratum,2,Household,0,Predictor
+HHID,Unique Household ID,50892,Household,0,Predictor
+FORMTYPE,Form Type,3,Household,0,Predictor
+TOTKIDS_R,Number of Children in Household,4,Household,0,Predictor
+TENURE,The Conditions under Which Land or Buildings Are Held or Occupied,4,Household,0,Predictor
+HHLANGUAGE,Primary Household Language,4,Household,248,Predictor
+HHCOUNT,Number of People Living at Address,9,Household,0,Predictor
+FAMCOUNT,Number of People That Are Family Members,9,Household,1806,Predictor
+A1_AGE,Adult 1 - Age in Years,59,Household,0,Predictor
+A1_SEX,Adult 1 - Sex,3,Household,1613,Predictor
+A1_BORN,Adult 1 - Where Born,3,Household,1558,Predictor
+A1_EMPLOYED,Adult 1 - Current Employment Status,6,Household,1897,Predictor
+A1_GRADE,Adult 1 - Highest Completed Year of School,9,Household,0,Predictor
+A1_MARITAL,Adult 1 - Marital Status,7,Household,1833,Predictor
+A1_RELATION,Adult 1 - How Related to Child,7,Household,1414,Predictor
+A2_AGE,Adult 2 - Age in Years,60,Household,0,Predictor
+A2_SEX,Adult 2 - Sex,4,Household,9234,Predictor
+A2_BORN,Adult 2 - Where Born,4,Household,9556,Predictor
+A2_EMPLOYED,Adult 2 - Current Employment Status,7,Household,9243,Predictor
+A2_GRADE,Adult 2 - Highest Completed Year of School,11,Household,9188,Predictor
+A2_MARITAL,Adult 2 - Marital Status,8,Household,9318,Predictor
+A2_RELATION,Adult 2 - How Related to Child,8,Household,1769,Predictor
+A1_PHYSHEALTH,Adult 1 - Physical Health,6,Household,1807,Predictor
+A1_MENTHEALTH,Adult 1 - Mental or Emotional Health,6,Household,1791,Predictor
+A2_PHYSHEALTH,Adult 2 - Physical Health,7,Household,9248,Predictor
+A2_MENTHEALTH,Adult 2 - Mental or Emotional Health,7,Household,9236,Predictor
+K2Q33A,Anxiety,3,Mental Health,198,Outcome
+K2Q33B,Anxiety Currently,4,Mental Health,45618,Outcome
+K2Q33C,Anxiety Severity Description,5,Mental Health,46166,Outcome
+K2Q32A,Depression,3,Mental Health,166,Outcome
+K2Q32B,Depression Currently,4,Mental Health,48330,Outcome
+K2Q32C,Depression Severity Description,5,Mental Health,48809,Outcome
+K2Q34A,Behavior Problems,3,Mental Health,177,Predictor
+K2Q34B,Behavior Problems Currently,4,Mental Health,46836,Predictor
+K2Q34C,Behavior Problems Severity Description,5,Mental Health,47470,Predictor
+K2Q36A,Developmental Delay,3,Mental Health,171,Predictor
+K2Q36B,Developmental Delay Currently,4,Mental Health,47182,Predictor
+K2Q36C,Developmental Delay Severity Description,5,Mental Health,48088,Predictor
+K2Q60A,Intellectual Disability,3,Mental Health,187,Predictor
+K2Q60B,Intellectual Disability Currently,4,Mental Health,50369,Predictor
+K2Q60C,Intellectual Disability Severity Description,5,Mental Health,50398,Predictor
+K2Q37A,Speech Disorder,3,Mental Health,191,Predictor
+K2Q37B,Speech Disorder Currently,4,Mental Health,46491,Predictor
+K2Q37C,Speech Disorder Severity Description,5,Mental Health,47892,Predictor
+K2Q30A,Learning Disability,3,Mental Health,153,Predictor
+K2Q30B,Learning Disability Currently,4,Mental Health,47487,Predictor
+K2Q30C,Learning Disability Severity Description,5,Mental Health,47717,Predictor
+K2Q35A,Autism ASD,3,Mental Health,262,Predictor
+K2Q35B,Autism ASD Currently,4,Mental Health,49352,Predictor
+K2Q35C,Autism ASD Severity Description,5,Mental Health,49456,Predictor
+AUTISMMED,Autism ASD - Medication Currently,4,Mental Health,49347,Predictor
+AUTISMTREAT,Autism ASD - Behavioral Treatment,4,Mental Health,49346,Predictor
+K2Q31A,ADD/ADHD,3,Mental Health,283,Predictor
+K2Q31B,ADD/ADHD Currently,4,Mental Health,46252,Predictor
+K2Q31C,ADD/ADHD Severity Description,5,Mental Health,46639,Predictor
+K2Q31D,ADD/ADHD - Medication Currently,4,Mental Health,46177,Predictor
+ADDTREAT,ADD/ADHD - Behavioral Treatment,4,Mental Health,46175,Predictor
+K4Q23,Emotions Concentration Behavior Medication,3,Mental Health,1323,Predictor
+K4Q22_R,Mental Health Professional Treatment,4,Mental Health,256,Predictor
+TREATNEED,Mental Health Professional Treatment - Problem,6,Mental Health,44486,Predictor
+MentHCare_21,"Indicator 4.4: Children who received needed treatment or counseling from a mental health professional during the past 12 months, age 3-17 years",5,Mental Health,8933,Predictor
+MentHDiff_21,"Indicator 4.4a: Difficulties obtaining mental health care among those who received or needed care during the past 12 months, age 3-17 years",7,Mental Health,35823,Predictor
+MEDB10ScrQ5_21,"Indicator 2.10: Children with mental, emotional, developmental or behavioral problems, age 3-17 years",3,Mental Health,8717,Predictor
+MedEmotion_21,"Indicator 2.9: Children who are taking medication for ADD/ADHD, ASD, difficulties with emotions, concentration, or behavior, age 3-17 years",4,Mental Health,877,Predictor
+InsMentH_21,"Indicator 3.5: Adequacy of insurance coverage for mental/behavioral health care, age 3-17 years who are insured and received mental health care",6,Mental Health,9183,Predictor
